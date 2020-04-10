@@ -1,0 +1,8 @@
+applications:
+- name: cf-spring-music
+  memory: 1024M
+  # Add your name/initials to make the hostname unique
+  host: cf-spring-music-6543
+  domain: cfapps.io
+  path: C:\Users\Satya Sai Ram\Downloads\spring-music\pre-built\spring-music.war
+  instances: 1
